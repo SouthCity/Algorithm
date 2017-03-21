@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2C8336F1E7FDA8300A20DE3"
-               BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app"
-               BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC"
-               ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+               BuildableName = "AlgorithmImplementationForOC.app"
+               BlueprintName = "AlgorithmImplementationForOC"
+               ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2C833881E7FDA8300A20DE3"
-               BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests.xctest"
-               BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests"
-               ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+               BuildableName = "AlgorithmImplementationForOCTests.xctest"
+               BlueprintName = "AlgorithmImplementationForOCTests"
+               ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2C833931E7FDA8300A20DE3"
-               BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests.xctest"
-               BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests"
-               ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+               BuildableName = "AlgorithmImplementationForOCUITests.xctest"
+               BlueprintName = "AlgorithmImplementationForOCUITests"
+               ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2C8336F1E7FDA8300A20DE3"
-            BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app"
-            BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC"
-            ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+            BuildableName = "AlgorithmImplementationForOC.app"
+            BlueprintName = "AlgorithmImplementationForOC"
+            ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2C8336F1E7FDA8300A20DE3"
-            BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app"
-            BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC"
-            ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+            BuildableName = "AlgorithmImplementationForOC.app"
+            BlueprintName = "AlgorithmImplementationForOC"
+            ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2C8336F1E7FDA8300A20DE3"
-            BuildableName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app"
-            BlueprintName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC"
-            ReferencedContainer = "container:Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.xcodeproj">
+            BuildableName = "AlgorithmImplementationForOC.app"
+            BlueprintName = "AlgorithmImplementationForOC"
+            ReferencedContainer = "container:AlgorithmImplementationForOC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

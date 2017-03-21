@@ -41,7 +41,7 @@
 		D2B81DC41E7FFA8400044814 /* SortingAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortingAlgorithm.m; sourceTree = "<group>"; };
 		D2B81DC71E7FFC2800044814 /* SortingAlgorithmImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortingAlgorithmImplementation.h; sourceTree = "<group>"; };
 		D2B81DC81E7FFC2800044814 /* SortingAlgorithmImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortingAlgorithmImplementation.m; sourceTree = "<group>"; };
-		D2C833701E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C833701E7FDA8300A20DE3 /* AlgorithmImplementationForOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmImplementationForOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C833741E7FDA8300A20DE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2C833761E7FDA8300A20DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2C833771E7FDA8300A20DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,10 +49,10 @@
 		D2C8337F1E7FDA8300A20DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C833821E7FDA8300A20DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C833841E7FDA8300A20DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C833891E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C833891E7FDA8300A20DE3 /* AlgorithmImplementationForOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmImplementationForOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C8338D1E7FDA8300A20DE3 /* Algorithm_implementation_For_OC_git_git_push__u_origin_master_algorithmForOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithm_implementation_For_OC_git_git_push__u_origin_master_algorithmForOCTests.m; sourceTree = "<group>"; };
 		D2C8338F1E7FDA8300A20DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C833941E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C833941E7FDA8300A20DE3 /* AlgorithmImplementationForOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmImplementationForOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C833981E7FDA8300A20DE3 /* Algorithm_implementation_For_OC_git_git_push__u_origin_master_algorithmForOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithm_implementation_For_OC_git_git_push__u_origin_master_algorithmForOCUITests.m; sourceTree = "<group>"; };
 		D2C8339A1E7FDA8300A20DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C833A61E7FF5D400A20DE3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 		D2C833711E7FDA8300A20DE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2C833701E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app */,
-				D2C833891E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests.xctest */,
-				D2C833941E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests.xctest */,
+				D2C833701E7FDA8300A20DE3 /* AlgorithmImplementationForOC.app */,
+				D2C833891E7FDA8300A20DE3 /* AlgorithmImplementationForOCTests.xctest */,
+				D2C833941E7FDA8300A20DE3 /* AlgorithmImplementationForOCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2C8336F1E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC */ = {
+		D2C8336F1E7FDA8300A20DE3 /* AlgorithmImplementationForOC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C8339D1E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC" */;
+			buildConfigurationList = D2C8339D1E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOC" */;
 			buildPhases = (
 				D2C8336C1E7FDA8300A20DE3 /* Sources */,
 				D2C8336D1E7FDA8300A20DE3 /* Frameworks */,
@@ -181,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC";
+			name = AlgorithmImplementationForOC;
 			productName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC";
-			productReference = D2C833701E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app */;
+			productReference = D2C833701E7FDA8300A20DE3 /* AlgorithmImplementationForOC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2C833881E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests */ = {
+		D2C833881E7FDA8300A20DE3 /* AlgorithmImplementationForOCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C833A01E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests" */;
+			buildConfigurationList = D2C833A01E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOCTests" */;
 			buildPhases = (
 				D2C833851E7FDA8300A20DE3 /* Sources */,
 				D2C833861E7FDA8300A20DE3 /* Frameworks */,
@@ -199,14 +199,14 @@
 			dependencies = (
 				D2C8338B1E7FDA8300A20DE3 /* PBXTargetDependency */,
 			);
-			name = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests";
+			name = AlgorithmImplementationForOCTests;
 			productName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests";
-			productReference = D2C833891E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests.xctest */;
+			productReference = D2C833891E7FDA8300A20DE3 /* AlgorithmImplementationForOCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2C833931E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests */ = {
+		D2C833931E7FDA8300A20DE3 /* AlgorithmImplementationForOCUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C833A31E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests" */;
+			buildConfigurationList = D2C833A31E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOCUITests" */;
 			buildPhases = (
 				D2C833901E7FDA8300A20DE3 /* Sources */,
 				D2C833911E7FDA8300A20DE3 /* Frameworks */,
@@ -217,9 +217,9 @@
 			dependencies = (
 				D2C833961E7FDA8300A20DE3 /* PBXTargetDependency */,
 			);
-			name = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests";
+			name = AlgorithmImplementationForOCUITests;
 			productName = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests";
-			productReference = D2C833941E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests.xctest */;
+			productReference = D2C833941E7FDA8300A20DE3 /* AlgorithmImplementationForOCUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2C8336B1E7FDA8300A20DE3 /* Build configuration list for PBXProject "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC" */;
+			buildConfigurationList = D2C8336B1E7FDA8300A20DE3 /* Build configuration list for PBXProject "AlgorithmImplementationForOC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,9 +263,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2C8336F1E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC */,
-				D2C833881E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests */,
-				D2C833931E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests */,
+				D2C8336F1E7FDA8300A20DE3 /* AlgorithmImplementationForOC */,
+				D2C833881E7FDA8300A20DE3 /* AlgorithmImplementationForOCTests */,
+				D2C833931E7FDA8300A20DE3 /* AlgorithmImplementationForOCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,12 +331,12 @@
 /* Begin PBXTargetDependency section */
 		D2C8338B1E7FDA8300A20DE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2C8336F1E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC */;
+			target = D2C8336F1E7FDA8300A20DE3 /* AlgorithmImplementationForOC */;
 			targetProxy = D2C8338A1E7FDA8300A20DE3 /* PBXContainerItemProxy */;
 		};
 		D2C833961E7FDA8300A20DE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2C8336F1E7FDA8300A20DE3 /* Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC */;
+			target = D2C8336F1E7FDA8300A20DE3 /* AlgorithmImplementationForOC */;
 			targetProxy = D2C833951E7FDA8300A20DE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				DEVELOPMENT_TEAM = DASVFR84HQ;
 				INFOPLIST_FILE = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjh.Algorithm-implementation-For-OC-git-git-push--u-origin-master-algorithmForOC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjh.Algorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -470,7 +470,7 @@
 				DEVELOPMENT_TEAM = DASVFR84HQ;
 				INFOPLIST_FILE = "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjh.Algorithm-implementation-For-OC-git-git-push--u-origin-master-algorithmForOC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjh.Algorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,7 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mjh.Algorithm-implementation-For-OC-git-git-push--u-origin-master-algorithmForOCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app/Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmImplementationForOC.app/AlgorithmImplementationForOC";
 			};
 			name = Debug;
 		};
@@ -497,7 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mjh.Algorithm-implementation-For-OC-git-git-push--u-origin-master-algorithmForOCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC.app/Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmImplementationForOC.app/AlgorithmImplementationForOC";
 			};
 			name = Release;
 		};
@@ -528,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2C8336B1E7FDA8300A20DE3 /* Build configuration list for PBXProject "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC" */ = {
+		D2C8336B1E7FDA8300A20DE3 /* Build configuration list for PBXProject "AlgorithmImplementationForOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2C8339B1E7FDA8300A20DE3 /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2C8339D1E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOC" */ = {
+		D2C8339D1E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2C8339E1E7FDA8300A20DE3 /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2C833A01E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCTests" */ = {
+		D2C833A01E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2C833A11E7FDA8300A20DE3 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2C833A31E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "Algorithm-implementation-For-OC.git git push -u origin master algorithmForOCUITests" */ = {
+		D2C833A31E7FDA8300A20DE3 /* Build configuration list for PBXNativeTarget "AlgorithmImplementationForOCUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2C833A41E7FDA8300A20DE3 /* Debug */,
