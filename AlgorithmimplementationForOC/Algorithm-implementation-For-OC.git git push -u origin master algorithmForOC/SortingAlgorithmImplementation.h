@@ -19,4 +19,9 @@
 //插入排序
 + (void)InsertionSort:(NSMutableArray *)array;
 
+//归并排序
++ (void)MergeSort:(NSMutableArray *)array
+        tempArray:(NSMutableArray *)tempArr
+       startIndex:(NSInteger)start
+         endIndex:(NSInteger)end;
 @end
