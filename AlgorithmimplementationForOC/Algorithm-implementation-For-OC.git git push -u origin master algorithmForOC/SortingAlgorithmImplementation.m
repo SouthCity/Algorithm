@@ -91,5 +91,31 @@
     }
 }
 
+#pragma mark 快速排序
++ (void)QuickSort:(NSMutableArray *)array
+       startIndex:(NSInteger)start
+         endIndex:(NSInteger)end {
+    if (start>=end) {
+        return;
+    }
+    NSInteger left = start;
+    NSInteger right = end;
+    NSInteger key = [[array objectAtIndex:start] integerValue];
+    while (left<right) {
+        while (left<right && key<=[[array objectAtIndex:right] integerValue]) {
+            right--;
+        }
+        [array replaceObjectAtIndex:left withObject:[array objectAtIndex:right]];
+        while (left<right && key>=[[array objectAtIndex:left] integerValue]) {
+            left--;
+        }
+        [array replaceObjectAtIndex:right withObject:[array objectAtIndex:left]];
+    }
+    [array replaceObjectAtIndex:left withObject:[NSNumber numberWithInteger:key]];
+    [self QuickSort:array startIndex:start endIndex:left-1];
+    [self QuickSort:array startIndex:left+1 endIndex:end];
+}
+
+
 
 @end
