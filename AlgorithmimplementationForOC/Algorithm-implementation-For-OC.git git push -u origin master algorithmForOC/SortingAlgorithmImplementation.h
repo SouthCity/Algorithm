@@ -24,4 +24,9 @@
         tempArray:(NSMutableArray *)tempArr
        startIndex:(NSInteger)start
          endIndex:(NSInteger)end;
+
+//快速排序
++ (void)QuickSort:(NSMutableArray *)array
+       startIndex:(NSInteger)start
+         endIndex:(NSInteger)end;
 @end
