@@ -29,4 +29,7 @@
 + (void)QuickSort:(NSMutableArray *)array
        startIndex:(NSInteger)start
          endIndex:(NSInteger)end;
+//堆排序
++ (void)HeapStort:(NSMutableArray *)array;
+
 @end
