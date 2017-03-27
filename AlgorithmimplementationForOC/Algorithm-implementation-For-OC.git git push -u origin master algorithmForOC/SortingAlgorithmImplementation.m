@@ -26,7 +26,7 @@
     for (int i=0; i<array.count-1; i++) {
         NSInteger temp = [[array objectAtIndex:i] integerValue];
         NSInteger tempIndex = i;
-        for (NSInteger j=i+1; j<array.count-1; j++) {
+        for (NSInteger j=i+1; j<array.count; j++) {
             NSInteger compareNum = [[array objectAtIndex:j] integerValue];
             if (temp > compareNum) {
                 temp = compareNum;
@@ -42,10 +42,9 @@
 #pragma mark 插入排序
 + (void)InsertionSort:(NSMutableArray *)array {
     for (NSInteger i=0; i<array.count; i++) {
-        NSInteger temp = [[array objectAtIndex:i] integerValue];
-        for (NSInteger j=i; j>=0; j--) {
-            if (temp > [[array objectAtIndex:j] integerValue]) {
-                [array exchangeObjectAtIndex:i withObjectAtIndex:j];
+        for (NSInteger j=i; j>0; j--) {
+            if ([[array objectAtIndex:j] integerValue] < [[array objectAtIndex:j-1] integerValue]) {
+                [array exchangeObjectAtIndex:j withObjectAtIndex:j-1];
             }
         }
     }
@@ -116,6 +115,29 @@
     [self QuickSort:array startIndex:left+1 endIndex:end];
 }
 
+#pragma mark 堆排序
++ (void)HeapStort:(NSMutableArray *)array {
+    for (NSInteger i = array.count/2-1; i>=0; i--) {
+        [self buildMaxHeap:array index:i lenth:array.count];
+    }
+    for (NSInteger j = array.count-1; j >= 0; j--) {
+        [array exchangeObjectAtIndex:0 withObjectAtIndex:j];
+        [self buildMaxHeap:array index:0 lenth:j];
+    }
+}
 
++ (void)buildMaxHeap:(NSMutableArray *)array index:(NSInteger)index lenth:(NSInteger)arrayLenth{
+    for (NSInteger i = index*2+1; i<arrayLenth; i = 2*i+1) {
+        if (i<arrayLenth-1 && [[array objectAtIndex:i] integerValue] < [[array objectAtIndex:i+1] integerValue]) {
+            i++;
+        }
+        if ([[array objectAtIndex:index] integerValue] < [[array objectAtIndex:i] integerValue]) {
+            [array exchangeObjectAtIndex:index withObjectAtIndex:i];
+        }else{
+            break;
+        }
+        index = i;
+    }
+}
 
 @end

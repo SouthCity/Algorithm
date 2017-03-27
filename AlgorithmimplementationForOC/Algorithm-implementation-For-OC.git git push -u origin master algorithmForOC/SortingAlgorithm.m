@@ -7,7 +7,7 @@
 //
 
 #import "SortingAlgorithm.h"
-
+#import "SortingAlgorithmImplementation.h"
 @interface SortingAlgorithm ()
 
 @property (strong, nonatomic) NSArray *titleArray;
@@ -18,8 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@54,@35,@48,@36,@27,@12,@44,@44,@8,@14,@26,@17,@28]];
+    NSMutableArray *tempArray = [NSMutableArray array];
+    [SortingAlgorithmImplementation BubbleSort:array];
+    [SortingAlgorithmImplementation SelectionSort:array];
+    [SortingAlgorithmImplementation InsertionSort:array];
+    [SortingAlgorithmImplementation MergeSort:array tempArray:tempArray startIndex:0 endIndex:array.count-1];
+    [SortingAlgorithmImplementation QuickSort:array startIndex:0 endIndex:array.count-1];
+    [SortingAlgorithmImplementation HeapStort:array];
+    NSLog(@"%@",array);
     
-    // Uncomment the following line to preserve selection between presentations.
+    
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
