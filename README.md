@@ -1,2 +1,2 @@
-# Algorithm-implementation-For-OC
-一些常用算法的OC实现
+# Algorithm
+日常刷算法存档 
