@@ -32,6 +32,66 @@
 总分相同时，按其德分降序排列；若德分也并列，则按准考证号的升序输出。
 
 
+
+
+输入例子:
+14 60 80
+
+10000001 64 90
+
+10000002 90 60
+
+10000011 85 80
+
+10000003 85 80
+
+10000004 80 85
+
+10000005 82 77
+
+10000006 83 76
+
+10000007 90 78
+
+10000008 75 79
+
+10000009 59 90
+
+10000010 88 45
+
+10000012 80 100
+
+10000013 90 99
+
+10000014 66 60
+
+输出例子:
+12
+
+10000013 90 99
+
+10000012 80 100
+
+10000003 85 80
+
+10000011 85 80
+
+10000004 80 85
+
+10000007 90 78
+
+10000006 83 76
+
+10000005 82 77
+
+10000002 90 60
+
+10000014 66 60
+
+10000008 75 79
+
+10000001 64 90
+
 */
 
 
@@ -40,15 +100,111 @@
 #include <string.h>
 #include <iomanip>
 #include <ctype.h>
+#include <vector>
+
 using namespace std;
+
+
+class student
+{
+public:
+	long X;
+	int D;
+	int C;
+	void print(){
+		cout<<X<<" "<<D<<" "<<C<<endl;	
+	}
+	int totalPoints(){
+		return D+C;	
+	}
+};
+
+
+void sortStudent(std::vector<student> &v);
+void printVector(std::vector<student> &v);
 
 int main(int argc, char const *argv[])
 {
+	int n,l,h;
+	cin>>n>>l>>h;
+	std::vector<student> hstud;
+	std::vector<student> dstud;
+	std::vector<student> dcstud;
+	std::vector<student> nstud;
+	while(n--) {
+		student stu;
+		cin>>stu.X>>stu.D>>stu.C;
+		if (stu.D>=l && stu.C>=l) {
+
+		 	if (stu.D>=h && stu.C>=h) {
+		 		hstud.push_back(stu);
+			}
+			else if (stu.D>=h && stu.C<h) {
+		 		dstud.push_back(stu);
+			}
+			else if (stu.D<h && stu.C<h && stu.D>=stu.C) {
+		 		dcstud.push_back(stu);
+			}
+			else {
+				nstud.push_back(stu);
+			}
+		}
+	}
+	cout<< hstud.size()+dstud.size()+dcstud.size()+nstud.size()<<endl;
+	//排序
+	sortStudent(hstud);
+	sortStudent(dstud);
+	sortStudent(dcstud);
+	sortStudent(nstud);
 	
+
+	printVector(hstud);
+	printVector(dstud);
+	printVector(dcstud);
+	printVector(nstud);
+
+
 	return 0;
 }
 
 
+void printVector(std::vector<student> &v) {
+	for (int i = 0; i <v.size(); ++i)
+	{
+		student stud = v[i];
+		cout<<stud.X<<" "<<stud.D<<" "<<stud.C<<endl;
+	}
+}
+
+void sortStudent(std::vector<student> &v) {
+	for (int i = 0; i < v.size(); ++i)
+	{
+		for (int j = 0; j < v.size()-1-i; ++j)
+			{
+				student one = v[j];
+				student two = v[j+1];
+				if (one.totalPoints()<two.totalPoints())
+				{
+					swap(v[j],v[j+1]);
+				}
+				else if(one.totalPoints() == two.totalPoints()) 
+				{
+					if (one.D<two.D)
+					{
+						swap(v[j],v[j+1]);
+					}else if(one.D == two.D)
+					{
+						if (one.X>two.X)
+						{
+							swap(v[j],v[j+1]);
+						}
+					}
+				}
+				
+			}	
+	}
+
+}
 
 
 
